@@ -1,0 +1,17 @@
+###Procesos asociados a WSL
+
+##Procesos Asociados a WSL 1
+
+En WSL 1, no hay una máquina virtual completa, por lo que los procesos son más ligeros y están integrados directamente con el sistema Windows. Los procesos que puedes observar incluyen:
+
+1. wsl.exe: Este es el ejecutable principal que inicia las sesiones de WSL. Cada vez que abres una terminal de WSL, wsl.exe se ejecuta para iniciar la sesión.
+2. Distribuciones de Linux: Los binarios específicos de la distribución que estés usando (como bash.exe, ubuntu.exe, debian.exe, etc.) también pueden estar presentes, representando la shell o aplicaciones específicas de la distribución.
+
+##Procesos Asociados a WSL 2
+
+En WSL 2, hay una máquina virtual ligera que utiliza un kernel de Linux completo. Esto implica que además de wsl.exe, hay otros procesos relacionados con la virtualización:
+
+1. wsl.exe: Similar a WSL 1, este es el ejecutable principal que inicia las sesiones de WSL.
+2. vmmem: Este proceso es responsable de la memoria utilizada por la máquina virtual de WSL 2. Indica cuánta memoria está utilizando la VM de WSL 2.
+3. vmmemWSL: Este proceso específico puede aparecer en algunas versiones de Windows y es similar a vmmem, gestionando los recursos de la VM de WSL 2.
+4. Distribuciones de Linux: Los procesos específicos de la distribución de Linux que estés utilizando dentro de WSL 2 (como bash, sshd, apache2, etc.) aparecerán como procesos de Linux dentro de la VM.
