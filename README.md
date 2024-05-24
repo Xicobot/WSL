@@ -5,4 +5,4 @@
 3. Instalación de un Debian y un Ubuntu
 4. Procesos asociados a WSL
 
-![wsl.jpg](img/wsljgp)
+!(wsl.jpg)[img/wsljgp]
