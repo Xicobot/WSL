@@ -1,0 +1,19 @@
+##Introduccion:
+
+Windows Subsystem for Linux (WSL) es una característica de Windows 10 y Windows 11 que permite a los usuarios ejecutar un entorno de Linux directamente en Windows, sin la necesidad de máquinas virtuales o arranques duales. WSL proporciona una capa de compatibilidad para ejecutar binarios de Linux en Windows de manera nativa, es decir, que se ejecuta una terminal emulando el sistema operativo linux con el terminal de linux, actualmente hay dos wsl, en mi caso estaré instalando y probando la wsl1.
+
+#Aquí tienes algunas características clave de WSL:
+
+1. Integración Nativa: WSL permite ejecutar un shell de Linux completo directamente en Windows. Puedes usar herramientas de línea de comandos de Linux junto con tus aplicaciones y herramientas de Windows.
+
+2. Múltiples Distribuciones: Puedes instalar diversas distribuciones de Linux desde la Microsoft Store, como Ubuntu, Debian, Fedora, OpenSUSE, entre otras.
+
+3. Compatibilidad con Herramientas de Desarrollo: WSL es muy útil para desarrolladores que trabajan en proyectos multiplataforma. Permite el uso de herramientas de desarrollo y scripts de Linux directamente en un entorno Windows.
+
+  Diferencias entre WSL 1 y WSL 2:
+
+1. WSL 1: Emula el kernel de Linux a través de una traducción de llamadas del sistema Linux a llamadas del sistema Windows.
+2. WSL 2: Utiliza un kernel Linux completo que se ejecuta en una máquina virtual ligera, proporcionando un mejor rendimiento y compatibilidad.
+3. Integración de Sistema de Archivos: Los sistemas de archivos de Windows y Linux están integrados, lo que permite el acceso a los archivos de Windows desde Linux y viceversa.
+4. Soporte de Docker: WSL 2 facilita el uso de Docker en Windows, ya que permite ejecutar contenedores de Linux nativos.
+  
