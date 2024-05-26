@@ -5,3 +5,8 @@
 3. [Procesos asociados a WSL](/documents/process)
 4. [Video Demostrativo](https://youtu.be/QbWME_0IEDs)
 ![ImagenLinux](/img/wsl.jpg)
+
+
+# Referencias
+[ChatGTP](https://chatgpt.com/?oai-dm=1)
+[Microsoft WSL](https://learn.microsoft.com/es-es/windows/wsl/install)
